@@ -14,11 +14,10 @@ export class Projects extends Component {
     render() {
         return (
             <div>
-                <Container>
+                <Container className="section2">
+                <h1>Projects</h1>
                     <Row className="row">
-                        <Col md={4}className="col1">
-                        <img src={collectionProj} alt="Cartoon Collection" className="img" />    
-                        </Col>
+                        <Col md={4}className="col1"><img src={collectionProj} alt="Cartoon Collection" className="img" /></Col>
                         <Col md={4}className="col2"><img src={aptitudeProj} alt="" className="img" /></Col>
                         <Col md={4}className="col3"><img src={cardGame} alt="" className="img" /></Col>
                         <Col md={4}className="col1"><img src={comingSoon} alt="" className="img" /></Col>
