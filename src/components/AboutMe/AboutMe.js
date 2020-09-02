@@ -7,14 +7,11 @@ export class AboutMe extends Component {
             <section className="section1">
                 <h1>About me...</h1>
                 <h3>Being from Cornwall, I'm naturally an outdoorsy kinda person<br></br>
-                When I'm not on my laptop, I enjoy cold-water swimming, kayaking, walking <s>(to the pub)</s> with my dog or just getting out and exploring somewhere new.
-                Online, I have a strong interest in Javascript and JS frameworks, particularly ReactJS.
-                The best way to learn is by doing, so I can also be found building mini projects and expanding my knowledge of a particular subject.
+                    When I'm not on my laptop, I enjoy cold-water swimming, kayaking, walking <s>(to the pub)</s> with my dog or just getting out and exploring somewhere new.
+                    Online, I have a strong interest in Javascript and JS frameworks, particularly ReactJS.
+                    The best way to learn is by doing, so I can also be found building mini projects and expanding my knowledge of a particular subject.
                 </h3>
-
-            </section>
-
-            
+            </section>    
         )
     }
 }

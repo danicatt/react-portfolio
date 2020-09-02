@@ -1,16 +1,23 @@
+@import '../../assets/styles/basics.scss';
+
 .header {
-    background: none;
-    color: #fff;
-    font-family: 'Fredoka One', cursive;
+    background: none; //<- .header is a jumbotron container, so need to override default background to 'none'.
+    color: $mainTextColor;
+    font-family: $titleFont;
     text-align: center;
 
     h1 {
-        font-size: 70px;
+        font-size: 4.4rem;
     }
 
     h3 {
-        font-size: 45px;
-        padding-bottom: 40px;
+        font-size: 3rem;
+        padding-bottom: 40px; 
+    }
+
+    .email {
+        font-size: 1.5rem;
+        font-family: $secondaryFont;
     }
 }
 

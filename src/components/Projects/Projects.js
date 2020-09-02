@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import '../Projects/Projects.scss'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
+import Container from 'react-bootstrap/Container'
+
 import collectionProj from '../../assets/collection.png'
 import aptitudeProj from '../../assets/aptitude.png'
 import cardGame from '../../assets/armadillo-card-game.png'
 import comingSoon from '../../assets/coming-soon.jpg'
 import estatesPrj from '../../assets/estates.png'
 import finCalculator from '../../assets/finance-calculator.png'
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
 
 export class Projects extends Component {
     render() {
@@ -18,7 +19,7 @@ export class Projects extends Component {
                 <h1>Projects</h1>
                     <Row className="row">
                         <Col className="col1" md={4}>
-                            <img src={collectionProj} alt="Collection App" className="img"/>
+                            <img src={ collectionProj } alt="Collection App" className="img" />
                             <div className="middle">
                                 <div className="text">
                                     <h3>Cartoon Collection App.</h3>
@@ -28,7 +29,7 @@ export class Projects extends Component {
                             </div>
                         </Col>
                         <Col className="col2" md={4}>
-                            <img src={aptitudeProj} alt="Aptitude test" className="img"/>
+                            <img src={ aptitudeProj } alt="Aptitude test" className="img" />
                             <div class="middle">
                                 <div class="text">
                                     <h3>Academy Aptitude Test.</h3> 
@@ -38,17 +39,17 @@ export class Projects extends Component {
                             </div>
                         </Col>
                         <Col className="col3" md={4}>
-                            <img src={cardGame} alt="Brain-training game" className="img"/>
+                            <img src={ cardGame } alt="Brain-training game" className="img"/>
                             <div class="middle">
                                 <div class="text">
                                     <h3>Armadillo's Brain Training Numbers Game.</h3> 
-                                    <text>Written in Javascript and a nod to Flexbox Froggy.</text>
+                                    <text>Written in Javascript with a nod to Flexbox Froggy.</text>
                                 </div>
                                 <a href="http://dev.maydenacademy.co.uk/projects/2020Feb/2020-feb-numberGame/" className="btn btn-info">Demo</a>
                             </div>
                         </Col>
                         <Col className="col1" md={4}>
-                            <img src={comingSoon} alt="Coming soon" className="img"/>
+                            <img src={ comingSoon } alt="Coming soon" className="img" />
                             <div className="middle">
                                 <div className="text">
                                     <h3>To Do List.</h3> 
@@ -57,7 +58,7 @@ export class Projects extends Component {
                             </div>
                         </Col>
                         <Col className="col2" md={4}>
-                            <img src={estatesPrj} alt="Property Website" className="img"/>
+                            <img src={ estatesPrj } alt="Property Website" className="img" />
                             <div class="middle">
                                 <div class="text">
                                     <h3>Armadillo Estates</h3>
@@ -67,7 +68,7 @@ export class Projects extends Component {
                             </div>
                         </Col>
                         <Col className="col3" md={4}>
-                            <img src={finCalculator} alt="Finance Calculator" className="img"/>
+                            <img src={ finCalculator } alt="Finance Calculator" className="img" />
                             <div class="middle">
                                 <div class="text">
                                     <h3>Mayden Academy Finance Calculator.</h3> 

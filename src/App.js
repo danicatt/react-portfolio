@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+
 import MainHeader from '../src/components/MainHeader/MainHeader';
 import AboutMe from '../src/components/AboutMe/AboutMe';
 import Projects from '../src/components/Projects/Projects';
