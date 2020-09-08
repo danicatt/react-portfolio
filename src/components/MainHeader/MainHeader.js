@@ -22,14 +22,14 @@ export class MainHeader extends Component {
         return (
             <div>
                 <section className="socialContainer">
-                    <a href={ this.state.github } className="email">
+                    <a href={ this.state.github }>
                     <FontAwesomeIcon icon={ faGithubSquare } size='4x' style={{padding: 10}} />
                     </a>
-                    <a href={ this.state.linkedIn } className="email">
+                    <a href={ this.state.linkedIn }>
                     <FontAwesomeIcon icon={ faLinkedin } size='4x' style={{padding: 10}} />
                     </a>
                 <br/>
-                    <span className="email">{ this.state.email }</span>
+                    <a href="mailto:decatterill@gmail.com" className="email">{this.state.email}</a>
                 </section>
                 <Jumbotron className="header">
                     <h1>Hey, I'm {this.state.name}</h1>
