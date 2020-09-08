@@ -11,28 +11,32 @@ export class MainHeader extends Component {
         super(props);
         
         this.state = {
-            "name":"Danielle Catterill"
+            "name":"Danielle Catterill",
+            "github": "https://github.com/danicatt",
+            "linkedIn": "https://www.linkedin.com/in/danielle-catterill-013b9b75",
+            "email": "decatterill@gmail.com"
         }
     }
 
     render() {
         return (
-            <Jumbotron className="header">
-                <h1>Hey, I'm {this.state.name}</h1>
-                <h3>Thanks for stopping by.</h3>
-                <img src={ profilePic } alt="profilePicture" className="headerImage" />
-                <div className="socialContainer">
-                    <a href="https://github.com/danicatt">
-                        <FontAwesomeIcon icon={ faGithubSquare } size='8x' style={{padding: 10}} />
+            <div>
+                <section className="socialContainer">
+                    <a href={ this.state.github } className="email">
+                    <FontAwesomeIcon icon={ faGithubSquare } size='4x' style={{padding: 10}} />
                     </a>
-                    <a href="https://www.linkedin.com/in/danielle-catterill-013b9b75/">
-                        <FontAwesomeIcon icon={ faLinkedin } size='8x' style={{padding: 10}} />
+                    <a href={ this.state.linkedIn } className="email">
+                    <FontAwesomeIcon icon={ faLinkedin } size='4x' style={{padding: 10}} />
                     </a>
-                    <br/>
-                    <br/>
-                    <span className="email">decatterill@gmail.com</span>
-                </div>
-            </Jumbotron>
+                <br/>
+                    <span className="email">{ this.state.email }</span>
+                </section>
+                <Jumbotron className="header">
+                    <h1>Hey, I'm {this.state.name}</h1>
+                    <h3>Thanks for stopping by.</h3>
+                    <img src={ profilePic } alt="profilePicture" className="headerImage" />
+                </Jumbotron>
+            </div>
         )
     }
 }

@@ -8,26 +8,37 @@
 
     h1 {
         font-size: 4.4rem;
+        padding-top: 1%;
+        background: linear-gradient(-40deg, #f45dab, #e46744, #F9E900, #22D3A9, #51E5FF);
+        animation: transition 12s ease infinite;
+        background-size: 400% 400%;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     h3 {
         font-size: 3rem;
-        padding-bottom: 40px; 
-    }
-
-    .email {
-        font-size: 1.5rem;
-        font-family: $secondaryFont;
+        padding-bottom: 40px;
+        background: linear-gradient(-40deg, #F9C8DA, #FFD9C2, #FFFBC2, #CBF6EC, #C2F6FF);
+        animation: transition 15s ease infinite;
+        background-size: 400% 400%;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
 .headerImage {
-    width: 370px;
-    border-radius: 100%;
+    width: 350px;
+    border-radius: 20%;
 }
 
 .socialContainer {
     text-align: center;
-    padding-top: 3%;
-  }
-  
+    font-size: 1.5rem;
+    font-family: $secondaryFont;
+    color: #fff;
+    animation: transition 15s ease infinite;
+    background: linear-gradient(-40deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+    background-size: 400% 400%;
+    margin-bottom: 2%;
+}

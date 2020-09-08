@@ -5,7 +5,7 @@ export class AboutMe extends Component {
     render() {
         return (
             <section className="section1">
-                <h1>About me...</h1>
+                <h1>About me<span>...</span></h1>
                 <h3>
                     I have recently graduated from Mayden Academy in Bath. Having completed their Full-Stack Track intensive course. <br/>
                     <br/>As well as learning the fundamentals of programming, I worked within an agile team of eight students, taking on projects in JavaScript, React, Node js, PHP and Object-Orientated Programming. During this time, I also became a Certified ScrumMaster.
