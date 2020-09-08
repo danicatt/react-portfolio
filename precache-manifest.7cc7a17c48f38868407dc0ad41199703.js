@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ab0587782696abd4fa437f999e0ec44",
+    "revision": "24e26a604f1cdca9895334b5ac2cc1e1",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "d60be4ee2a59e0d2c8df",
-    "url": "/react-portfolio/static/css/main.6455f873.chunk.css"
+    "revision": "ed72a1c21c0a0973fd22",
+    "url": "/react-portfolio/static/css/main.4f18b8ed.chunk.css"
   },
   {
     "revision": "51836fbf3212e72145b0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.9bfef378.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d60be4ee2a59e0d2c8df",
-    "url": "/react-portfolio/static/js/main.44ae8166.chunk.js"
+    "revision": "ed72a1c21c0a0973fd22",
+    "url": "/react-portfolio/static/js/main.0eafe3be.chunk.js"
   },
   {
     "revision": "73a871a578ef5a2aeb49",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/coming-soon.381653d3.jpg"
   },
   {
-    "revision": "83bbd2996203bdafa234499def13143c",
-    "url": "/react-portfolio/static/media/drawing.83bbd299.svg"
+    "revision": "c2dc37f261362c8e8613b481382dba09",
+    "url": "/react-portfolio/static/media/drawing.c2dc37f2.svg"
   },
   {
     "revision": "22053fe69b5b644455e89596df682954",
