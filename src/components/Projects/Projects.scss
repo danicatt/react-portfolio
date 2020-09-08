@@ -5,11 +5,19 @@
     margin-bottom: 5%;
 
     h1 {
-    font-family: $titleFont;
-    font-size: 4rem;
-    margin: 2%;
+        font-family: $titleFont;
+        font-size: 4rem;
+        margin: 2%;
+
+        span {
+            background: linear-gradient(-40deg, #E73C7E, #FF8C42, #F9E900, #22D3A9, #51E5FF);
+            animation: transition 4s ease infinite;
+            background-size: 400% 400%;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
-}
+}  
 
 .row {
     justify-content: center;
@@ -25,7 +33,7 @@
 
 //Individual project tiles:
 .col1 {
-    padding: 0; 
+    padding: 0;
     margin: 20px;
 }
 
@@ -38,7 +46,7 @@
 }
 
 .col2 {
-    padding: 0; 
+    padding: 0;
     margin: 20px;
 }
 
@@ -51,7 +59,7 @@
 }
 
 .col3 {
-    padding: 0; 
+    padding: 0;
     margin: 20px;
 }
 
@@ -63,31 +71,31 @@
     opacity: 1;
 }
 
-.image  {
+.image {
     height: 250px;
     padding: 0;
     opacity: 1;
     transition: .5s ease;
-  }
+}
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .text {
-  background-color: #f0cc98;
-  color: #000000;
-  padding: 14px 28px;
-  font-size: 0.8rem;
+    background-color: #f0cc98;
+    color: #000000;
+    padding: 14px 28px;
+    font-size: 0.8rem;
 
-  h3 {
-      font-size: 0.9rem;
-  }
+    h3 {
+        font-size: 0.9rem;
+    }
 }

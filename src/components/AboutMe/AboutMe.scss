@@ -2,12 +2,21 @@
 
 .section1 {
     text-align: center;
-    margin: 5%;
+    margin-top: 6%;
+    padding: 2%;
 
     h1 {
         font-size: 4rem;
         font-family: $titleFont;
         margin: 2%;
+
+        span {
+        background: linear-gradient(-40deg,  #E73C7E, #FF8C42, #F9E900, #22D3A9, #51E5FF);
+        animation: transition 4s ease infinite;
+        background-size: 400% 400%;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;   
+        }
     }
 
     h3 {
