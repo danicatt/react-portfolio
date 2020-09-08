@@ -29,6 +29,7 @@ export class MainHeader extends Component {
                         <FontAwesomeIcon icon={ faLinkedin } size='8x' style={{padding: 10}} />
                     </a>
                     <br/>
+                    <br/>
                     <span className="email">decatterill@gmail.com</span>
                 </div>
             </Jumbotron>
